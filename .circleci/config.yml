@@ -15,6 +15,13 @@ jobs:
     # Checkout code.
     - checkout
 
+    # Create test-result folder.
+    - run:
+        name: Create test result folder
+        command: |
+          mkdir test-results
+          mkdir test-results/pytest
+
     # Download and cache dependencies.
     - restore_cache:
         keys:
@@ -58,15 +65,19 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          coverage run --source=. --omit=./venv/* MainPredefined.py
+          pytest -v --junitxml=test_results/pytest/pytest.xml
+          coverage run --source=. --omit=./venv/*, ./test/* MainPredefined.py
           coverage xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
           python-codacy-coverage -r coverage.xml
-          coverage report -m > coverage.log
+          mv coverage.xml ./test_results/pytest/
+          coverage report -m > test_results/pytest/coverage.log
 
 
     # Store test results.
     - store_artifacts:
-        path: coverage.log
-        destination: test-reports
+        path: test_results
+
+    - store_test_results:
+        path: test_results
