@@ -58,7 +58,7 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          coverage run --source=. --omit=./venv/* MainPredefined.py
+          coverage run --source=. --omit=./venv/*, ./test/* MainPredefined.py
           coverage xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
