@@ -30,7 +30,7 @@ jobs:
         - v1-dependencies-
 
     - run:
-        name: install dependencies
+        name: Install dependencies
         command: |
           python3 -m venv venv
           . venv/bin/activate
@@ -42,15 +42,22 @@ jobs:
         key: v1-dependencies-{{ checksum "requirements.txt" }}
 
     - run:
-        name: install Codacy reporter
+        name: Install Codacy reporter
         command: |
           python3 -m venv venv
           . venv/bin/activate
           pip install codacy-coverage
 
+    # Run tests! We use pytest's test-runner (https://pytest.org)
+    - run:
+        name: Run tests
+        command: |
+          . venv/bin/activate
+          pytest -v --junitxml=test_results/pytest/pytest.xml
+
     # Set up Code Climate by downloading test reporter as a static binary
     - run:
-        name: Setup Code Climate test-reporter
+        name: Set up Code Climate test-reporter
         command: |
           curl -L 'https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64' > ./cc-test-reporter
           chmod +x ./cc-test-reporter
@@ -61,10 +68,9 @@ jobs:
     # 3. Upload test report to Codacy using `python-codacy-coverage`
     # 4. Produce normal report to show in CircleCI 'test-reports'
     - run:
-        name: run tests
+        name: pProduce coverage report
         command: |
           . venv/bin/activate
-          pytest -v --junitxml=test_results/pytest/pytest.xml
           ./cc-test-reporter before-build
           coverage run --source=. --omit=./venv/*, ./test/* MainPredefined.py
           coverage xml
