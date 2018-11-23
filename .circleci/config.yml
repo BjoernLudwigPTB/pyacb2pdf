@@ -53,7 +53,7 @@ jobs:
         name: Run tests
         command: |
           . venv/bin/activate
-          pytest -v --junitxml=test_results/pytest/pytest.xml
+          python -m pytest -v --junitxml=test_results/pytest/pytest.xml
 
     # Set up Code Climate by downloading test reporter as a static binary
     - run:
