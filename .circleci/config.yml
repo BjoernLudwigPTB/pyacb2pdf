@@ -65,8 +65,9 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          python -m pytest -v --cov=. --junitxml=test_results/pytest/pytest.xml
-          coverage xml
+          python -m pytest -v --cov=. \
+          --ignore=venv/ --junitxml=test_results/pytest/pytest.xml
+          --cov-report xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
           python-codacy-coverage -r coverage.xml
@@ -76,6 +77,7 @@ jobs:
     # Store test results.
     - store_artifacts:
         path: test_results
+        destination: test_results
 
     - store_test_results:
         path: test_results
