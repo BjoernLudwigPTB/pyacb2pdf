@@ -65,16 +65,13 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          coverage run MainPredefined.py
-          python -m pytest -v --cov=. --cov-append \
-          --junitxml=test_results/pytest/pytest.xml
+          python -m pytest -v --cov=. --junitxml=test_results/pytest/pytest.xml
           coverage xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
           python-codacy-coverage -r coverage.xml
           mv coverage.xml ./test_results/pytest/
           coverage report -m > test_results/pytest/coverage.log
-
 
     # Store test results.
     - store_artifacts:
