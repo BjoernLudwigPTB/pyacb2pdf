@@ -65,7 +65,7 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          coverage run --source=. --omit=./venv/ MainPredefined.py
+          coverage run MainPredefined.py
           python -m pytest -v --cov=. --cov-append \
           --junitxml=test_results/pytest/pytest.xml
           coverage xml
