@@ -65,7 +65,7 @@ jobs:
         command: |
           . venv/bin/activate
           ./cc-test-reporter before-build
-          python -m pytest -v --cov=. --ignore=venv/ \
+          python -m pytest -v --cov=XMLToPDFConverter \
            --junitxml=test_results/pytest/pytest.xml --cov-report xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
