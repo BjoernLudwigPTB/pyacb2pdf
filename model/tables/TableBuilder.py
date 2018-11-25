@@ -29,27 +29,9 @@ class TableBuilder:
         """
 
         return [[
-            'Wandern im Hoch - und Mittelgebirge', [
-                'Hochgebirge', 'Mittelgebirge'], [
-                'Wandern']], [
-            'Klettern und Bouldern im Mittelgebirge', [
-                'Mittelgebirge'], [
-                'Klettern', 'Bouldern']], [
-            'Ausbildung, Wandern und Klettern in Berlin', [
+            'Regelmäßige Veranstaltungen in Berlin', [
                 'in Berlin'], [
-                'Grundlagenkurs', 'Wandern', 'Klettern']], [
-            'Mountainbiken', [
-                'in Berlin', 'Hochgebirge', 'Mittelgebirge'], [
-                'Mountainbiken']], [
-            'Bergsteigen, Hochtouren und Klettern im Hochgebirge', [
-                'Hochgebirge'], [
-                'Bergsteigen', 'Hochtouren', 'Klettern']], [
-            'Veranstaltungen für Familien', [
-                'in Berlin', 'Hochgebirge', 'Mittelgebirge'], [
-                'Familie']], [
-            'Jugendgruppen und -events', [
-                'in Berlin', 'Hochgebirge', 'Mittelgebirge'], [
-                'Jugend']]]
+                'Klettern', 'Wandern', 'Bouldern']]]
 
     def create_subtables(self):
         """
@@ -81,9 +63,8 @@ class TableBuilder:
             main_header, self._styles['Heading1'])]],
             self._table_styles.table_width,
             self._table_styles.heading)]
-        headings = ['Art', 'Datum', 'Ort', 'Leitung', 'Beschreibung',
-                    'Zielgruppe',
-                    'Voraussetzungen', 'mehr Infos unter']
+        headings = ['Titel', 'Zeit', 'Ort', 'Beschreibung',
+                    'Zielgruppe', 'Voraussetzungen', 'Verantwortlich']
         columns = []
 
         for heading in headings:

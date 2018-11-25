@@ -36,7 +36,7 @@ class Initializer:
         pdf.rightMargin = 0.0
         courses = doc.findall('kurs')
         sorter = Sorter(doc, courses)
-        sorted_courses = sorter.sort_parsed_xml('TerminDatumVon1')
+        sorted_courses = sorter.sort_parsed_xml('Ort')
 
         parser.collect_xml_data(sorted_courses)
 

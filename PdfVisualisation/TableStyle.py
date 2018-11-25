@@ -25,7 +25,7 @@ class TableStyle:
             Styles.align_left, Styles.valign_middle, Styles.box(colors.black),
             Styles.inner_grid(colors.black)]
 
-        self.column_widths = [8 * mm, 13 * mm, 19 * mm, 18 * mm, 46 * mm,
-                              21 * mm, 30 * mm, 23 * mm]
+        self.column_widths = [25 * mm, 18 * mm, 20 * mm, 49 * mm,
+                              22 * mm, 22 * mm, 22 * mm]
 
         self.table_width = 178 * mm

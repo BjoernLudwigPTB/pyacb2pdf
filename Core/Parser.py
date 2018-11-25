@@ -146,6 +146,31 @@ class PDFBuilder:
         return date_string
 
     @staticmethod
+    def _parse_regular_time(weekday, time, season, exceptions):
+        """
+        Determine all time relevant infos and assemble a string accordingly.
+
+        :param str weekday: text delivered under xml tag *Wochentag*
+        :param str time: text delivered under xml tag *Uhrzeit*
+        :param str season: text delivered under xml tag *Saison*
+        :param str exceptions: text delivered under xml tag *Ausnahmen*
+        :return str: the string to print when the group meets and when not
+        the current event
+        """
+        if weekday:
+            time_string = weekday + '<br/>'
+        else:
+            time_string = ''
+
+        if time:
+            time_string += time + '<br/>'
+        if season:
+            time_string += season + '<br/>'
+        if exceptions:
+            time_string += 'außer ' + exceptions
+        return time_string
+
+    @staticmethod
     def _parse_url(url):
         """
         Determine the correct URL for printing. Either use the trainer*ess
@@ -200,28 +225,23 @@ class PDFBuilder:
             styles = self._styles
             columns_to_print = [
                 Paragraph(PDFBuilder._get_event_data(
-                    event_data, ['Kursart']), styles["Normal"]),
-                Paragraph(PDFBuilder._parse_date(self._get_event_data(
-                    event_data, ['TerminDatumVon1', 'TerminDatumBis1'])),
+                    event_data, ['Bezeichnung']), styles["Normal"]),
+                Paragraph(self._parse_regular_time(PDFBuilder._get_event_data(
+                    event_data, ['Wochentag']), PDFBuilder._get_event_data(
+                    event_data, ['Uhrzeit']), PDFBuilder._get_event_data(
+                    event_data, ['Saison']), PDFBuilder._get_event_data(
+                    event_data, ['Ausnahmen'])), styles["Normal"]),
+                Paragraph(PDFBuilder._get_event_data(
+                    event_data, ['Ort']), styles["Normal"]),
+                Paragraph(PDFBuilder._get_event_data(
+                    event_data, ['Terminbeschreibung', 'Gruppenbeschreibung']),
                     styles["Normal"]),
-                Paragraph(PDFBuilder._get_event_data(
-                    event_data, ['Ort1']), styles["Normal"]),
-                Paragraph(PDFBuilder._get_event_data(
-                    event_data, ['Kursleiter']), styles["Normal"]),
-                Paragraph(PDFBuilder._get_event_data(
-                    event_data, ['Bezeichnung', 'Bezeichnung2',
-                                 'Beschreibung']), styles["Normal"]),
                 Paragraph(PDFBuilder._get_event_data(
                     event_data, ['Zielgruppe']), styles["Normal"]),
-                Paragraph(PDFBuilder._parse_prerequisites(
-                    PDFBuilder._get_event_data(
-                        event_data, ['Voraussetzung']),
-                    PDFBuilder._get_event_data(event_data, ['Ausrüstung']),
-                    PDFBuilder._get_event_data(event_data, ['Kurskosten']),
-                    PDFBuilder._get_event_data(event_data, ['Leistungen'])),
-                    styles["Normal"]),
-                Paragraph(PDFBuilder._parse_url(self._get_event_data(
-                    event_data, ['TrainerURL'])), styles["Normal"])]
+                Paragraph(PDFBuilder._get_event_data(
+                    event_data, ['Voraussetzungen']), styles["Normal"]),
+                Paragraph(PDFBuilder._get_event_data(
+                    event_data, ['Leiter']), styles["Normal"])]
             event = self._creator.create_table_fixed(
                 [columns_to_print], self._table_styles.column_widths,
                 self._table_styles.normal)
