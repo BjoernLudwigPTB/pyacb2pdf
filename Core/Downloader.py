@@ -8,4 +8,5 @@ class Downloader():
 
     def download(self, output_filename):
         r = requests.get(self.__url, allow_redirects=False)
-        open(output_filename, 'wb').write(r.content)
+        # Commented out, so I can manually insert my offer
+        # open(output_filename, 'wb').write(r.content)
