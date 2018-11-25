@@ -12,7 +12,7 @@ def convert():
     properties_filename = 'kursdaten_prop.properties'
     properties_path = input_folder + properties_filename
     output_folder = 'output/'
-    output_filename = 'kursdaten.pdf'
+    output_filename = 'regulars.pdf'
     output_path = output_folder + output_filename
     dl = Downloader(url)
     dl.download(xml_path)
