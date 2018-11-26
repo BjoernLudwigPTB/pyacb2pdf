@@ -2,25 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="regularly.xsl"?>
 <kursexport>
 <date>
-2018-11-18T23:48:59.058173
+2018-11-26T17:20:33.224271
 </date>
 <kurs>
     <counter>1</counter>
     <Bezeichnung>Wuhletal-Kletterer</Bezeichnung>
     <Terminbeschreibung>Betreutes Klettern, Aufsicht und Ansprechpartner</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Helmut Hohmann</Leiter>
-    <KontaktDruck>(nicht ins Web)</KontaktDruck>
+    <Leiter>Helmut Hohmann, Frank Wolter</Leiter>
+    <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
-    <Ort> Marzahn Wuhletalwächter</Ort>
+    <Ort>Wuhletalwächter Marzahn</Ort>
     <Wochentag>Mittwoch</Wochentag>
     <Uhrzeit>17:00-21:00</Uhrzeit>
-    <Saison>ab Ende April</Saison>
+    <Saison>Mai-September</Saison>
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>ACB-Mitglieder und die, die es werden wollen</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, Gurte können ausgeliehen werden</Voraussetzungen>
     <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
+    <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
@@ -81,7 +81,7 @@
     <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>6</counter>
+    <counter>5</counter>
     <Bezeichnung>Studiklettern</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
@@ -100,7 +100,7 @@
     <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>7</counter>
+    <counter>6</counter>
     <Bezeichnung>Familienbeisser</Bezeichnung>
     <Terminbeschreibung>Eltern-Kind-Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
@@ -113,13 +113,13 @@
     <Saison></Saison>
     <Ausnahmen>nicht in den Schulferien</Ausnahmen>
     <Zielgruppe>Kinder 0-10 mit Eltern</Zielgruppe>
-    <Voraussetzungen>Selbständig sichern</Voraussetzungen>
+    <Voraussetzungen>Eltern sichern selbständig ihre Kinder</Voraussetzungen>
     <Formalien>Nur wenn Jugendleiter anwesend</Formalien>
     <Ausrichtung>Jugend</Ausrichtung>
     <Gruppenbeschreibung>Hier können Kinder zwischen 0 und 10 Jahren gemeinsam mit ihren Eltern teilnehmen, die die Faszination des Klettersports erleben möchten.  Aber natürlich auch junge Erwachsene (älter als 25 Jahre), die noch keine Kinder aber auch keine Angst vor Kindern haben und die Vereinbarkeit von Klettern und Kindern erleben möchten. Die Eltern übernehmen weiterhin die Aufsichtspflicht für ihre Kinder und sichern selbstständig, gemäß den Inhalten des DAV-Kletterschein Toprope, ihre Kinder. Kinder sollten in einen Klettergurt passen, wenn es über das Bouldern hinaus gehen soll.</Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>9</counter>
+    <counter>7</counter>
     <Bezeichnung>Siebenschläfer</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
@@ -133,50 +133,12 @@
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>Erwachsene und Familien</Zielgruppe>
     <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
-    <Formalien>Nachwuchs nur mit Eltern</Formalien>
+    <Formalien>Nachwuchs nur mit Eltern (Aufsichtspflicht)</Formalien>
     <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften jeglichen Alters (Nachwuchs bitte mit Elternteil).</Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>10</counter>
-    <Bezeichnung>Siebenschläfer</Bezeichnung>
-    <Terminbeschreibung>Offenes Klettern, in Berlin</Terminbeschreibung>
-    <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Tom Pfeifer</Leiter>
-    <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
-    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
-    <Ort>Wechselnde Anlagen</Ort>
-    <Wochentag>Dienstag</Wochentag>
-    <Uhrzeit>17:00--</Uhrzeit>
-    <Saison></Saison>
-    <Ausnahmen></Ausnahmen>
-    <Zielgruppe></Zielgruppe>
-    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
-    <Formalien>Nachwuchs nur mit Eltern</Formalien>
-    <Ausrichtung>allgemein</Ausrichtung>
-    <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften jeglichen Alters (Nachwuchs bitte mit Elternteil).</Gruppenbeschreibung>
-</kurs>
-<kurs>
-    <counter>11</counter>
-    <Bezeichnung>Siebenschläfer</Bezeichnung>
-    <Terminbeschreibung>Offenes Klettern, in Berlin</Terminbeschreibung>
-    <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Tom Pfeifer</Leiter>
-    <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
-    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
-    <Ort>Wechselnde Anlagen</Ort>
-    <Wochentag>Donnerstag</Wochentag>
-    <Uhrzeit>17:00--</Uhrzeit>
-    <Saison></Saison>
-    <Ausnahmen></Ausnahmen>
-    <Zielgruppe></Zielgruppe>
-    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
-    <Formalien>Nachwuchs nur mit Eltern</Formalien>
-    <Ausrichtung>allgemein</Ausrichtung>
-    <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften jeglichen Alters (Nachwuchs bitte mit Elternteil).</Gruppenbeschreibung>
-</kurs>
-<kurs>
-    <counter>12</counter>
+    <counter>8</counter>
     <Bezeichnung>Siebenschläfer</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, Bouldern, in Berlin</Kategorie>
@@ -184,21 +146,40 @@
     <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
     <Ort>Wechselnde Anlagen</Ort>
-    <Wochentag>Samstag oder Sonntag</Wochentag>
+    <Wochentag>Dienstag und Donnerstag</Wochentag>
     <Uhrzeit>17:00--</Uhrzeit>
-    <Saison>Mai-September</Saison>
-    <Ausnahmen>je nach Wetter, entfällt bei Fahrten</Ausnahmen>
-    <Zielgruppe>Erwachsene und Familien</Zielgruppe>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe></Zielgruppe>
     <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
-    <Formalien>Nachwuchs nur mit Eltern</Formalien>
+    <Formalien>Nachwuchs nur mit Eltern (Aufsichtspflicht)</Formalien>
     <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften jeglichen Alters (Nachwuchs bitte mit Elternteil).</Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>14</counter>
+    <counter>9</counter>
+    <Bezeichnung>Siebenschläfer</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Tom Pfeifer</Leiter>
+    <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
+    <Ort>Wechselnde Anlagen</Ort>
+    <Wochentag>Samstag oder Sonntag</Wochentag>
+    <Uhrzeit>11:00--</Uhrzeit>
+    <Saison>Mai-September</Saison>
+    <Ausnahmen>je nach Wetter, entfällt bei Fahrten</Ausnahmen>
+    <Zielgruppe>Erwachsene und Familien</Zielgruppe>
+    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
+    <Formalien>Nachwuchs nur mit Eltern (Aufsichtspflicht)</Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften jeglichen Alters (Nachwuchs bitte mit Elternteil).</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>10</counter>
     <Bezeichnung>Boulder- und Klettercoaching</Bezeichnung>
-    <Terminbeschreibung>Wir treffen uns, um an unseren Potenzialen zu arbeiten, vielleicht noch schwieriger zu klettern, oder einfach nur gesünder, um länger festzuhalten.</Terminbeschreibung>
-    <Kategorie>Klettern, Bouldern, in Berlin</Kategorie>
+    <Terminbeschreibung>Arbeiten an unseren Potenzialen</Terminbeschreibung>
+    <Kategorie>Bouldern, Klettern, in Berlin</Kategorie>
     <Leiter>Björn Ludwig</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
@@ -208,104 +189,104 @@
     <Saison></Saison>
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>alle, die Kletterziele vor Augen haben oder welche möchten</Zielgruppe>
-    <Voraussetzungen></Voraussetzungen>
+    <Voraussetzungen>zielorientiert und ambitioniert</Voraussetzungen>
     <Formalien></Formalien>
-    <Ausrichtung>zielorientiert und ambitioniert</Ausrichtung>
-    <Gruppenbeschreibung></Gruppenbeschreibung>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Wir treffen uns, um an unseren Potenzialen zu arbeiten, vielleicht noch schwieriger zu klettern, oder einfach nur gesünder, um länger festzuhalten.</Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>15</counter>
+    <counter>11</counter>
     <Bezeichnung>Klettersportzentrum Spandau</Bezeichnung>
     <Terminbeschreibung>Schnuppern und Klettern mit Handicap</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
     <Leiter>Andreas Niemoth</Leiter>
-    <KontaktDruck></KontaktDruck>
+    <KontaktDruck>aniemoth@web.de</KontaktDruck>
     <KontaktWeb></KontaktWeb>
     <Ort>Sporthalle der B.-Traven-OS, Remscheider Str.</Ort>
     <Wochentag>Donnerstag</Wochentag>
     <Uhrzeit>17:15-19:00</Uhrzeit>
     <Saison></Saison>
-    <Ausnahmen>die Schulferien</Ausnahmen>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
     <Zielgruppe>Anfänger, Jugendliche, Familien</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
     <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
+    <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung>Anmeldung erbeten unter aniemoth@web.de</Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>17</counter>
+    <counter>12</counter>
     <Bezeichnung>Klettersportzentrum Spandau</Bezeichnung>
-    <Terminbeschreibung>Freies Klettern, bei gutem Wetter am Spandauer Kletterturm</Terminbeschreibung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
     <Leiter>Andreas Niemoth, Gerald Petrasch, Gudrun Petrasch</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
-    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str.</Ort>
+    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
     <Wochentag>Donnerstag</Wochentag>
-    <Uhrzeit>17:15-21:00</Uhrzeit>
+    <Uhrzeit>17:15-19:00</Uhrzeit>
     <Saison></Saison>
-    <Ausnahmen>die Schulferien</Ausnahmen>
-    <Zielgruppe>ACB Mitglieder</Zielgruppe>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>ACB-Mitglieder</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
     <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
+    <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>18</counter>
+    <counter>13</counter>
     <Bezeichnung>Klettern am Spandauer Turm</Bezeichnung>
-    <Terminbeschreibung>Freies Klettern</Terminbeschreibung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
     <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Vertretung Jakob Fankhänel</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
     <Ort>Kletterturm im Spektefeld</Ort>
     <Wochentag>Dienstag</Wochentag>
-    <Uhrzeit>ab 17:30</Uhrzeit>
-    <Saison>Mitte April bis Ende September</Saison>
-    <Ausnahmen>die Schulferien</Ausnahmen>
-    <Zielgruppe>ACB Mitglieder</Zielgruppe>
+    <Uhrzeit>17:30--</Uhrzeit>
+    <Saison>Mitte April bis September</Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>ACB-Mitglieder</Zielgruppe>
     <Voraussetzungen>Klettererfahrung im 4. Grad und Kletterausrüstung</Voraussetzungen>
-    <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
-    <Gruppenbeschreibung>bitte bringt Euren Mitgliedsausweis mit</Gruppenbeschreibung>
+    <Formalien>Mitgliedsausweis</Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>16</counter>
+    <counter>14</counter>
     <Bezeichnung>Kinder- und Jugendgruppe Sportklettern</Bezeichnung>
-    <Terminbeschreibung>Klettern in der Sporthalle der BTO und bei gutem Wetter am Spandauer Kletterturm</Terminbeschreibung>
+    <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
     <Leiter>Gudrun Petrasch</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
-    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str.</Ort>
+    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
     <Wochentag>Donnerstag</Wochentag>
     <Uhrzeit>17:15-19:00</Uhrzeit>
     <Saison></Saison>
-    <Ausnahmen>die Schulferien</Ausnahmen>
-    <Zielgruppe>Kinder und Jugendliche von 10 bis 27 Jahren, ACB Mitglieder</Zielgruppe>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>Kinder und Jugendliche des ACB von 10 bis 27 Jahren</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
     <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
+    <Ausrichtung>Jugend</Ausrichtung>
     <Gruppenbeschreibung></Gruppenbeschreibung>
 </kurs>
 <kurs>
-    <counter>19</counter>
+    <counter>15</counter>
     <Bezeichnung>Boulderistas</Bezeichnung>
-    <Terminbeschreibung>Gemeinsames Training zur nächsten Farbe</Terminbeschreibung>
+    <Terminbeschreibung>Gemeinsames Training zur nächsten Farbe, manchmal mit Coach</Terminbeschreibung>
     <Kategorie>Bouldern, in Berlin</Kategorie>
     <Leiter>Irina Leibold</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb></KontaktWeb>
-    <Ort>wechselnde Boulderhallen</Ort>
+    <Ort>Berliner Boulderhallen</Ort>
     <Wochentag>Montag</Wochentag>
     <Uhrzeit>19:00-21:00</Uhrzeit>
     <Saison></Saison>
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>Boulderinnen</Zielgruppe>
-    <Voraussetzungen>Halleneintritt</Voraussetzungen>
-    <Formalien></Formalien>
-    <Ausrichtung></Ausrichtung>
-    <Gruppenbeschreibung>ca. monatlich Bouldern auch mit Coach für neue Impulse und ab und an ein Wochenende am Fels</Gruppenbeschreibung>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien>Halleneintritt</Formalien>
+    <Ausrichtung>weiblich</Ausrichtung>
+    <Gruppenbeschreibung>etwa monatlich Bouldern auch mit Coach für neue Impulse und ab und an ein Wochenende am Fels</Gruppenbeschreibung>
 </kurs>
 </kursexport>

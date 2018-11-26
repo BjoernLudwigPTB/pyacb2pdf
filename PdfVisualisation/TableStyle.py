@@ -19,13 +19,15 @@ class TableStyle:
 
         self.sub_heading = [
             Styles.align_left, Styles.valign_middle, Styles.box(colors.black),
-            Styles.inner_grid(colors.black)]
+            Styles.inner_grid(colors.black), Styles.leftpadding_reduce,
+            Styles.rightpadding_reduce]
 
         self.normal = [
             Styles.align_left, Styles.valign_middle, Styles.box(colors.black),
-            Styles.inner_grid(colors.black)]
+            Styles.inner_grid(colors.black), Styles.leftpadding_reduce,
+            Styles.rightpadding_reduce]
 
-        self.column_widths = [25 * mm, 18 * mm, 20 * mm, 49 * mm,
-                              22 * mm, 22 * mm, 22 * mm]
+        self.column_widths = [25 * mm, 19 * mm, 26 * mm, 40 * mm,
+                              24 * mm, 22 * mm, 22 * mm]
 
         self.table_width = 178 * mm

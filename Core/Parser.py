@@ -167,7 +167,7 @@ class PDFBuilder:
         if season:
             time_string += season + '<br/>'
         if exceptions:
-            time_string += 'außer ' + exceptions
+            time_string += exceptions
         return time_string
 
     @staticmethod
@@ -234,7 +234,7 @@ class PDFBuilder:
                 Paragraph(PDFBuilder._get_event_data(
                     event_data, ['Ort']), styles["Normal"]),
                 Paragraph(PDFBuilder._get_event_data(
-                    event_data, ['Terminbeschreibung', 'Gruppenbeschreibung']),
+                    event_data, ['Terminbeschreibung']),
                     styles["Normal"]),
                 Paragraph(PDFBuilder._get_event_data(
                     event_data, ['Zielgruppe']), styles["Normal"]),
