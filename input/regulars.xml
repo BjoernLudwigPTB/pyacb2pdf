@@ -402,4 +402,24 @@
     <Ausrichtung>Jugend</Ausrichtung>
     <Gruppenbeschreibung>Unsere momentane Hauptaktivität ist das Klettern in der Halle. Wir feilen an unseren Fähigkeiten, machen Sicherungsstraining, erlernen verschiedene Klettertechniken und haben Spaß bei verschiedenen Boulderspielen. Wann immer es uns möglich ist, sind wir aber auch unterwegs: ob zum Klettern an den Klettertürmen in und um Berlin, zur Sommerfahrt in den Alpen oder im Herbst auf der Jonsdorfer Hütte, oder auch mal auf einer Wasserwanderung auf der Mecklenburgischen Seenplatte, zieht es uns regelmäßig nach draußen.</Gruppenbeschreibung>
 </kurs>
+<kurs>
+    <counter>21</counter>
+    <Bezeichnung>Physio-Coaching</Bezeichnung>
+    <Terminbeschreibung>Individuelle physiotherapeutische Edukation und Trainingsberatung nach Verletzungen, Überlastungen oder zur Vorbeugung</Terminbeschreibung>
+    <Kategorie>Klettern, Bouldern, in Berlin</Kategorie>
+    <Leiter>Michaela Geiß</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb></KontaktWeb>
+    <Ort>Bouldergarten</Ort>
+    <Wochentag>Montag</Wochentag>
+    <WeekdaySort>2</WeekdaySort>
+    <Uhrzeit>18:00-19:30</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Kletter- und Bergsportler*innen mit Beschwerden des Bewegungsapparates und Solche, die beschwerdefrei bleiben wollen.</Zielgruppe>
+    <Voraussetzungen>siehe Boulder- und Kletter-Coaching</Voraussetzungen>
+    <Formalien>Halleneintritt</Formalien>
+    <Ausrichtung>ambitioniert</Ausrichtung>
+    <Gruppenbeschreibung>Der Termin findet parallel zum Boulder- und Kletter-Coaching statt.</Gruppenbeschreibung>
+</kurs>
 </kursexport>
