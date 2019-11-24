@@ -17,10 +17,10 @@
     <Saison></Saison>
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>alle, die Kletterziele vor Augen haben oder welche möchten</Zielgruppe>
-    <Voraussetzungen>Die kurzfristige Kommunikation regeln wir über Signal, den kostenlosen, verschlüsselten Messenger. Für Austausch von Dateien verwenden wir eine privat gehostete Cloud.</Voraussetzungen>
+    <Voraussetzungen></Voraussetzungen>
     <Formalien></Formalien>
     <Ausrichtung>ambitioniert</Ausrichtung>
-    <Gruppenbeschreibung>An jedem 1. und 3. Termin im Monat findet ein angeleitetes Training zu einem spezifischen Thema statt, an den anderen Terminen könnt ihr wie gewohnt ein individuelles Coaching in Anspruch nehmen, um an Euren Potenzialen zu arbeiten, vielleicht noch schwieriger zu klettern, oder einfach nur gesünder, um länger festzuhalten.</Gruppenbeschreibung>
+    <Gruppenbeschreibung>An jedem 1. und 3. Termin im Monat findet ein angeleitetes Training zu einem spezifischen Thema statt, an den anderen Terminen könnt ihr wie gewohnt ein individuelles Coaching in Anspruch nehmen, um an Euren Potenzialen zu arbeiten, vielleicht noch schwieriger zu klettern, oder einfach nur gesünder, um länger festzuhalten. Die kurzfristige Kommunikation regeln wir über Signal, den kostenlosen, verschlüsselten Messenger. Für Austausch von Dateien verwenden wir eine privat gehostete Cloud.</Gruppenbeschreibung>
 </kurs>
 <kurs>
     <counter>2</counter>
@@ -420,6 +420,6 @@
     <Voraussetzungen>siehe Boulder- und Kletter-Coaching</Voraussetzungen>
     <Formalien>Halleneintritt</Formalien>
     <Ausrichtung>ambitioniert</Ausrichtung>
-    <Gruppenbeschreibung>Der Termin findet parallel zum Boulder- und Kletter-Coaching statt.</Gruppenbeschreibung>
+    <Gruppenbeschreibung>Die kurzfristige Kommunikation regeln wir über Signal, den kostenlosen, verschlüsselten Messenger. Für Austausch von Dateien verwenden wir eine privat gehostete Cloud. Der Termin findet parallel zum Boulder- und Kletter-Coaching statt.</Gruppenbeschreibung>
 </kurs>
 </kursexport>
