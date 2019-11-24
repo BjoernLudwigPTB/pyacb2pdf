@@ -66,7 +66,7 @@ class TableStyle:
         custom_styles = getSampleStyleSheet()
         # Overwrite the sample styles according to our needs.
         # TODO this should be provided in the properties file
-        custom_styles.get("Normal").fontSize = 6.5
+        custom_styles.get("Normal").fontSize = 6.6
         custom_styles.get("Normal").leading = custom_styles["Normal"].fontSize * 1.2
         custom_styles.get("Normal").fontName = "NewsGothBT"
         custom_styles.get("Italic").fontSize = custom_styles["Normal"].fontSize
