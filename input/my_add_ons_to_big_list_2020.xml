@@ -226,7 +226,7 @@
     <Kostenstelle></Kostenstelle>
     <Kurstermin>Frühling 2020</Kurstermin>
     <Abfahrt></Abfahrt>
-    <Beschreibung>Nähere Infos gibt's auf Anfrage oder spätestens bei der Vorbesprechung</Beschreibung>
+    <Beschreibung></Beschreibung>
     <Voraussetzung></Voraussetzung>
     <Ausruestung></Ausruestung>
     <Besprechung></Besprechung>
@@ -262,7 +262,7 @@
     <TerminDatumBis3></TerminDatumBis3>
     <Anmeldeschluss>30.04.2020</Anmeldeschluss>
     <Kursart>J</Kursart>
-    <TrainerURL></TrainerURL>
+    <TrainerURL>https://www.alpinclub-berlin.de/jugend/team/122-florian-schaefer</TrainerURL>
     <Zielgruppe>Kinder und Jugendliche des ACB</Zielgruppe>
     <Kursleiter>Florian Schäfer</Kursleiter>
 </kurs>
@@ -271,14 +271,14 @@
     <Kursnummer></Kursnummer>
     <Bezeichnung>Kletterreise mit Vorkenntnissen</Bezeichnung>
     <Anzahlung></Anzahlung>
-    <Bezeichnung2>Ziel und Gestaltung der Fahrt stehen in diesem Jahr noch nicht fest, so dass wir hier noch nichts genaues sagen können. Meldet Euch falls ihr Lust auf etwas bestimmtes habt. Ansonsten besprechen wir das auf der Jugendvollversammlung oder wann auch immer.</Bezeichnung2>
+    <Bezeichnung2>Ziel und Gestaltung der Fahrt stehen in diesem Jahr noch nicht fest, so dass wir hier noch nichts genaues sagen können. Meldet Euch falls ihr Lust auf etwas bestimmtes habt. Ansonsten besprechen wir das auf der Jugendvollversammlung oder wenn ihr Euch meldet.</Bezeichnung2>
     <Bezeichnung3></Bezeichnung3>
     <Kategorie>Jugend</Kategorie>
     <Leistungen>Orga, zzgl. V, AR/FG</Leistungen>
     <Kostenstelle></Kostenstelle>
     <Kurstermin>Frühling 2020</Kurstermin>
     <Abfahrt></Abfahrt>
-    <Beschreibung>Nähere Infos gibt's auf Anfrage</Beschreibung>
+    <Beschreibung></Beschreibung>
     <Voraussetzung></Voraussetzung>
     <Ausruestung></Ausruestung>
     <Besprechung></Besprechung>
