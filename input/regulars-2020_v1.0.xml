@@ -5,7 +5,7 @@
 <kurs>
     <counter>1</counter>
     <Bezeichnung>Boulder- und Klettercoaching</Bezeichnung>
-    <Terminbeschreibung>Arbeiten an unseren Potenzialen</Terminbeschreibung>
+    <Terminbeschreibung>Individuelles Coaching und Training</Terminbeschreibung>
     <Kategorie>Bouldern, Klettern, in Berlin</Kategorie>
     <Leiter>Björn Ludwig</Leiter>
     <KontaktDruck></KontaktDruck>
@@ -87,7 +87,7 @@
     <Bezeichnung>Klettern am Spandauer Turm</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Vertretung Jakob Fankhänel, Anne Reimer</Leiter>
+    <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Anne Reimer, Vertretung Jakob Fankhänel</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/95-petrasch-gerald</KontaktWeb>
     <Ort>Kletterturm im Spektefeld</Ort>
@@ -157,7 +157,7 @@
     <Saison>Mai-September</Saison>
     <Ausnahmen></Ausnahmen>
     <Zielgruppe>ACB-Mitglieder und die, die es werden wollen</Zielgruppe>
-    <Voraussetzungen>Kletterausrüstung, Gurte können ausgeliehen werden</Voraussetzungen>
+    <Voraussetzungen>Kletterausrüstung, Gurte können ausgeliehen werden</Voraussetzungen>
     <Formalien></Formalien>
     <Ausrichtung>allgemein</Ausrichtung>
     <Gruppenbeschreibung></Gruppenbeschreibung>
@@ -387,7 +387,7 @@
     <Bezeichnung>Wombats</Bezeichnung>
     <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Melanie Schäfer</Leiter>
+    <Leiter>Margarete Zepter</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/jugend/team/121-melanie-schaefer</KontaktWeb>
     <Ort>Kletterhalle Hüttenweg</Ort>
@@ -405,7 +405,7 @@
 <kurs>
     <counter>21</counter>
     <Bezeichnung>Physio-Coaching</Bezeichnung>
-    <Terminbeschreibung>Individuelle physiotherapeutische Edukation und Trainingsberatung nach Verletzungen, Überlastungen oder zur Vorbeugung</Terminbeschreibung>
+    <Terminbeschreibung>Individuelle physiotherapeutische Edukation und Trainingsberatung</Terminbeschreibung>
     <Kategorie>Klettern, Bouldern, in Berlin</Kategorie>
     <Leiter>Michaela Geiß</Leiter>
     <KontaktDruck></KontaktDruck>
@@ -416,10 +416,10 @@
     <Uhrzeit>18:00-19:30</Uhrzeit>
     <Saison></Saison>
     <Ausnahmen></Ausnahmen>
-    <Zielgruppe>Kletter- und Bergsportler*innen mit Beschwerden des Bewegungsapparates und Solche, die beschwerdefrei bleiben wollen.</Zielgruppe>
-    <Voraussetzungen>siehe Boulder- und Kletter-Coaching</Voraussetzungen>
+    <Zielgruppe>Kletter- und Bergsportler*innen</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
     <Formalien>Halleneintritt</Formalien>
     <Ausrichtung>ambitioniert</Ausrichtung>
-    <Gruppenbeschreibung>Die kurzfristige Kommunikation regeln wir über Signal, den kostenlosen, verschlüsselten Messenger. Für Austausch von Dateien verwenden wir eine privat gehostete Cloud. Der Termin findet parallel zum Boulder- und Kletter-Coaching statt.</Gruppenbeschreibung>
+    <Gruppenbeschreibung>Das Angebot richtet sich an Kletter- und Bergsportler*innen mit Beschwerden des Bewegungsapparates und Solche, die beschwerdefrei bleiben wollen und bietet Informationen und Trainingsberatung nach Verletzungen, Überlastungen oder zur Vorbeugung. Die kurzfristige Kommunikation regeln wir über Signal, den kostenlosen, verschlüsselten Messenger. Für Austausch von Dateien verwenden wir eine privat gehostete Cloud. Der Termin findet parallel zum Boulder- und Kletter-Coaching statt.</Gruppenbeschreibung>
 </kurs>
 </kursexport>
