@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Sorter:
     """Provides a method to sort from xml extracted data by a tag containing a date
 
@@ -12,17 +15,18 @@ class Sorter:
     def __init__(self, courses):
         self._courses = courses
 
-    def sort_parsed_xml(self, sort_key):
+    def sort_parsed_xml(self, keys):
         """Sort a list of :py:class:`xml.etree.ElementTree.Element` by their date
 
-        Taken from `effbot.org <http://effbot.org/zone/element-sort.htm>`_ and adapted.
+        Taken from `effbot.org <http://effbot.org/zone/element-sort.htm>`_ and
+        adapted. The sorting will be done in the order of the keys.
 
-        :param str sort_key: the xml tag which contains the data
+        :param List[str] keys: a list of xml tags which contain the
+            data
         """
-        from datetime import datetime
 
         def get_key(course):
-            return course.findtext(sort_key)
+            return tuple(course.findtext(key) for key in keys)
 
         self._courses[:] = sorted(self._courses, key=get_key)
         return self._courses[:]

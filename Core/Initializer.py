@@ -33,7 +33,7 @@ class Initializer:
         )
         doc = parse(input_path)
         sorter = Sorter(doc.findall("kurs"))
-        sorted_courses = sorter.sort_parsed_xml("WeekdaySort")
+        sorted_courses = sorter.sort_parsed_xml(["WeekdaySort", "Uhrzeit"])
         parser.collect_xml_data(sorted_courses)
 
         pdf.build(self.__data)
