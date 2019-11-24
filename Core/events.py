@@ -34,6 +34,7 @@ class Event(Element):
     _subtable_title: str
     _type: str
     _date: str
+    _regular_time: str
     _region: str
     _responsible: str
     _description: str
@@ -48,9 +49,12 @@ class Event(Element):
         # Initialize definitely needed instance variables.
         self._init_categories()
         self._type = self._concatenate_tags_content(["Kursart"])
-        self._init_date()
-        self._region = self._concatenate_tags_content(["Ort1"])
-        self._responsible = self._concatenate_tags_content(["Kursleiter"])
+        self._region = self._concatenate_tags_content(["Ort"])
+        self._responsible = self._concatenate_tags_content(["Leiter"])
+        # Initialize time string for regular event and store it as well in _date.
+        self._init_regular_time()
+        self._date = self._regular_time
+        # Build the table row which contains all information about the regular event.
         self._init_full_row()
 
     def _init_categories(self):
@@ -70,25 +74,7 @@ class Event(Element):
         .. warning:: Do not call this function directly since it is automatically
         called right after :meth:`get_full_row` is invoked.
         """
-        table_columns = [
-            Paragraph(self._type, self._style),
-            Paragraph(self._date, self._style),
-            Paragraph(self._region, self._style),
-            Paragraph(self._responsible, self._style),
-            Paragraph(
-                self._build_description(
-                    self._concatenate_tags_content(["Bezeichnung2"]),
-                    self._concatenate_tags_content(["Beschreibung"]),
-                    link=subtable_title,
-                ),
-                self._style,
-            ),
-        ]
-        self._reduced_row = self._table_builder.create_fixedwidth_table(
-            [table_columns],
-            self._table_style.column_widths[:4]
-            + [sum(self._table_style.column_widths[4:])],
-        )
+        self._reduced_row = self._full_row
 
     def create_reduced_after_full(func):
         """Decorator to execute :meth:`_init_reduced_row` with :meth:`get_full_row`
@@ -153,29 +139,35 @@ class Event(Element):
         Extract interesting information from events children tags and connect them
         into a nicely formatted row of a table.
         """
+        # columns_to_print = [
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Bezeichnung']), styles["Normal"]),
+        #     Paragraph(self._parse_regular_time(PDFBuilder._get_event_data(
+        #         event_data, ['Wochentag']), PDFBuilder._get_event_data(
+        #         event_data, ['Uhrzeit']), PDFBuilder._get_event_data(
+        #         event_data, ['Saison']), PDFBuilder._get_event_data(
+        #         event_data, ['Ausnahmen'])), styles["Normal"]),
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Ort']), styles["Normal"]),
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Terminbeschreibung']),
+        #         styles["Normal"]),
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Zielgruppe']), styles["Normal"]),
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Voraussetzungen']), styles["Normal"]),
+        #     Paragraph(PDFBuilder._get_event_data(
+        #         event_data, ['Leiter']), styles["Normal"])]
         table_columns = [
-            Paragraph(self._type, self._style),
-            Paragraph(self._date, self._style),
+            Paragraph(self._concatenate_tags_content(["Bezeichnung"]), self._style),
+            Paragraph(self._regular_time, self._style),
             Paragraph(self._region, self._style),
-            Paragraph(self._responsible, self._style),
             Paragraph(
-                self._build_description(
-                    self._concatenate_tags_content(["Bezeichnung2"]),
-                    self._concatenate_tags_content(["Beschreibung"]),
-                    self._concatenate_tags_content(["TrainerURL"]),
-                ),
-                self._style,
+                self._concatenate_tags_content(["Terminbeschreibung"]), self._style
             ),
             Paragraph(self._concatenate_tags_content(["Zielgruppe"]), self._style),
-            Paragraph(
-                self._parse_prerequisites(
-                    self._concatenate_tags_content(["Voraussetzung"]),
-                    self._concatenate_tags_content(["Ausruestung"]),
-                    self._concatenate_tags_content(["Kurskosten"]),
-                    self._concatenate_tags_content(["Leistungen"]),
-                ),
-                self._style,
-            ),
+            Paragraph(self._concatenate_tags_content(["Voraussetzungen"]), self._style),
+            Paragraph(self._responsible, self._style),
         ]
         self._full_row = self._table_builder.create_fixedwidth_table([table_columns])
 
@@ -202,6 +194,29 @@ class Event(Element):
             # All other dates stay uninterpreted and will be dropped.
             new_date = ""
         self._date = new_date
+
+    def _init_regular_time(self):
+        """Determine all time relevant infos and assemble a string accordingly
+
+        This results in a string containing when the group meets and when it does not.
+        """
+        # Fetch the related information from the xml data.
+        weekday = self._concatenate_tags_content(["Wochentag"])
+        time = self._concatenate_tags_content(["Uhrzeit"])
+        season = self._concatenate_tags_content(["Saison"])
+        exceptions = self._concatenate_tags_content(["Ausnahmen"])
+        if weekday:
+            new_time = weekday + "<br/>"
+        else:
+            new_time = ""
+
+        if time:
+            new_time += time + "<br/>"
+        if season:
+            new_time += season + "<br/>"
+        if exceptions:
+            new_time += exceptions
+        self._regular_time = new_time
 
     @staticmethod
     def _parse_prerequisites(personal, material, financial, offers):
