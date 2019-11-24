@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="regularly.xsl"?>
+<kursexport>
+<date>2019-11-08T16:47:47.133159</date>
+<kurs>
+    <counter>1</counter>
+    <Bezeichnung>Boulder- und Klettercoaching</Bezeichnung>
+    <Terminbeschreibung>Arbeiten an unseren Potenzialen</Terminbeschreibung>
+    <Kategorie>Bouldern, Klettern, in Berlin</Kategorie>
+    <Leiter>Björn Ludwig</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/41-ludwig-bjoern</KontaktWeb>
+    <Ort>Bouldergarten</Ort>
+    <Wochentag>Montag</Wochentag>
+    <WeekdaySort>2</WeekdaySort>
+    <Uhrzeit>18:00-19:30</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>alle, die Kletterziele vor Augen haben oder welche möchten</Zielgruppe>
+    <Voraussetzungen>zielorientiert und ambitioniert</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Wir treffen uns, um an unseren Potenzialen zu arbeiten, vielleicht noch schwieriger zu klettern, oder einfach nur gesünder, um länger festzuhalten.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>2</counter>
+    <Bezeichnung>Boulderistas</Bezeichnung>
+    <Terminbeschreibung>Gemeinsames Training zur nächsten Farbe, manchmal mit Coach</Terminbeschreibung>
+    <Kategorie>Bouldern, in Berlin</Kategorie>
+    <Leiter>Irina Leibold</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb></KontaktWeb>
+    <Ort>wechselnde Boulderhallen</Ort>
+    <Wochentag>Montag</Wochentag>
+    <WeekdaySort>2</WeekdaySort>
+    <Uhrzeit>19:00-21:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Boulderinnen</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien>Halleneintritt</Formalien>
+    <Ausrichtung>weiblich</Ausrichtung>
+    <Gruppenbeschreibung>etwa monatlich Bouldern auch mit Coach für neue Impulse und ab und an ein Wochenende am Fels</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>3</counter>
+    <Bezeichnung>Feierabendkletterer</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Jörg Kromm</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb></KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Dienstag</Wochentag>
+    <WeekdaySort>3</WeekdaySort>
+    <Uhrzeit>18:00-21:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe></Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>4</counter>
+    <Bezeichnung>Siebenschläfer klettern</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Tom Pfeifer</Leiter>
+    <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
+    <Ort>Wechselnde Anlagen</Ort>
+    <Wochentag>Dienstag</Wochentag>
+    <WeekdaySort>3</WeekdaySort>
+    <Uhrzeit>17:00--</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Erwachsene ACB-Mitglieder</Zielgruppe>
+    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>5</counter>
+    <Bezeichnung>Klettern am Spandauer Turm</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Vertretung Jakob Fankhänel</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/95-petrasch-gerald</KontaktWeb>
+    <Ort>Kletterturm im Spektefeld</Ort>
+    <Wochentag>Dienstag</Wochentag>
+    <WeekdaySort>3</WeekdaySort>
+    <Uhrzeit>17:30--</Uhrzeit>
+    <Saison>Mitte April-September</Saison>
+    <Ausnahmen>auch in den Schulferien</Ausnahmen>
+    <Zielgruppe>ACB-Mitglieder</Zielgruppe>
+    <Voraussetzungen>Klettererfahrung im 4. Grad und Kletterausrüstung</Voraussetzungen>
+    <Formalien>Mitgliedsausweis</Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>6</counter>
+    <Bezeichnung>Sport  und  Gymnastik in der Halle</Bezeichnung>
+    <Terminbeschreibung>Ballspiele und Gymnastik</Terminbeschreibung>
+    <Kategorie>Gymnastik, in Berlin</Kategorie>
+    <Leiter>Helmut Hohmann</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/121-bergsteigen/16-dr-hohmann-helmut</KontaktWeb>
+    <Ort>Turnhalle Sebastianstraße 57, Mitte</Ort>
+    <Wochentag>Dienstag</Wochentag>
+    <WeekdaySort>3</WeekdaySort>
+    <Uhrzeit>19:00-21:00</Uhrzeit>
+    <Saison>September-Mai</Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe></Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Teil 1: individuelle Erwärmung und Basketballspiel<br/> Teil 2: Kräftigungs- und Dehnungsgymnastik<br/> Teil 3: Fußballspiel</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>7</counter>
+    <Bezeichnung>Sport der Älteren</Bezeichnung>
+    <Terminbeschreibung>Gymnastik</Terminbeschreibung>
+    <Kategorie>Gymnastik, in Berlin</Kategorie>
+    <Leiter>Gabriele Wrede</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/kontakt/vorstand/80-gabriele-wrede</KontaktWeb>
+    <Ort>Spielhagenstr. 4, Charlottenburg</Ort>
+    <Wochentag>Dienstag</Wochentag>
+    <WeekdaySort>3</WeekdaySort>
+    <Uhrzeit>13:00--</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Senioren</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>Senioren</Ausrichtung>
+    <Gruppenbeschreibung>Gymnastik und Übungen zum Erhalt der Gesundheit und Mobilität. Gymnastikmatten und Kleinmaterialien sind vorhanden.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>8</counter>
+    <Bezeichnung>Wuhletal-Kletterer</Bezeichnung>
+    <Terminbeschreibung>Betreutes Klettern, Aufsicht und Ansprechpartner</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Helmut Hohmann, Frank Wolter</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/121-bergsteigen/16-dr-hohmann-helmut</KontaktWeb>
+    <Ort>Wuhletalwächter Marzahn</Ort>
+    <Wochentag>Mittwoch</Wochentag>
+    <WeekdaySort>4</WeekdaySort>
+    <Uhrzeit>17:00-21:00</Uhrzeit>
+    <Saison>Mai-September</Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>ACB-Mitglieder und die, die es werden wollen</Zielgruppe>
+    <Voraussetzungen>Kletterausrüstung, Gurte können ausgeliehen werden</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>9</counter>
+    <Bezeichnung>Senior Climber 30+</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Arno Behr</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/kontakt/vorstand/22-behr-arnold</KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Mittwoch</Wochentag>
+    <WeekdaySort>4</WeekdaySort>
+    <Uhrzeit>17:00-19:00</Uhrzeit>
+    <Saison>Oktober-April</Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Plaisirkletterer ab 30</Zielgruppe>
+    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>10</counter>
+    <Bezeichnung>Studiklettern</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Christian Herbst</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/126-herbst-christian</KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>19:30--</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Studentenalter</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>11</counter>
+    <Bezeichnung>Siebenschläfer bouldern</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern+Bouldern</Terminbeschreibung>
+    <Kategorie>Bouldern, in Berlin</Kategorie>
+    <Leiter>Tom Pfeifer</Leiter>
+    <KontaktDruck>0157 - 32 43 57 80</KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/116-pfeifer-tom</KontaktWeb>
+    <Ort>Wechselnde Anlagen</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:00--</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Erwachsene ACB-Mitglieder</Zielgruppe>
+    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Siebenschläfer könnten an sieben Tagen in der Woche klettern, wenn sie nicht grade schlafen oder fauchen. Wir klettern drinnen und draussen, an allen Berliner Anlagen, auf und ab, erkunden das Umland und in der Freiluftsaison die Mittelgebirgsfelsen. Wir bilden offene, gesellige Seilschaften.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>12</counter>
+    <Bezeichnung>Klettersportzentrum Spandau</Bezeichnung>
+    <Terminbeschreibung>Schnuppern und Klettern mit Handicap</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Andreas Niemoth</Leiter>
+    <KontaktDruck>aniemoth@web.de</KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/46-niemoth-andreas</KontaktWeb>
+    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str.</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:15-19:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>Anfänger, Jugendliche, Familien</Zielgruppe>
+    <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung>Anmeldung erbeten unter aniemoth@web.de</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>13</counter>
+    <Bezeichnung>Klettersportzentrum Spandau</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Andreas Niemoth, Gerald Petrasch, Gudrun Petrasch</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/46-niemoth-andreas</KontaktWeb>
+    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:15-21:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>ACB-Mitglieder</Zielgruppe>
+    <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>14</counter>
+    <Bezeichnung>Kinder- und Jugendgruppe Sportklettern</Bezeichnung>
+    <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Gudrun Petrasch</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/90-gudrun-petrasch2</KontaktWeb>
+    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:15-19:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>Kinder und Jugendliche des ACB von 10 bis 27 Jahren</Zielgruppe>
+    <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>Jugend</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>15</counter>
+    <Bezeichnung>Spiele-Nachmittage</Bezeichnung>
+    <Terminbeschreibung>Karten- und Brettspiele</Terminbeschreibung>
+    <Kategorie>Geselligkeit, in Berlin</Kategorie>
+    <Leiter>Sigrid Lengler, Peter Basedow</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb></KontaktWeb>
+    <Ort>Spielhagenstr. 4, Charlottenburg</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>15:00--</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>jeder erste im Monat</Ausnahmen>
+    <Zielgruppe></Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>16</counter>
+    <Bezeichnung>Wildlinge</Bezeichnung>
+    <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Florian Schäfer</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/jugend/team/122</KontaktWeb>
+    <Ort>Teufelsberger Kletterturm oder Hüttenweg</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:00-19:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>wetterabhängig</Ausnahmen>
+    <Zielgruppe>8-18 Jahre</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>Jugend</Ausrichtung>
+    <Gruppenbeschreibung>Wir sind offen für alle Spielarten des Kletterns und Bergsteigens.Wir finden Draußen ist besser als Drinnen. Wir wollen miteinander Abenteuer erleben (und uns gut darauf vorbereiten).</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>17</counter>
+    <Bezeichnung>New Kids on the Block</Bezeichnung>
+    <Terminbeschreibung>Jugend-Bouldern</Terminbeschreibung>
+    <Kategorie>Bouldern, in Berlin</Kategorie>
+    <Leiter>Friederike Busch</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/jugend/team/89</KontaktWeb>
+    <Ort>Berta Block Pankow</Ort>
+    <Wochentag>Donnerstag</Wochentag>
+    <WeekdaySort>5</WeekdaySort>
+    <Uhrzeit>17:30-18:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>10-14 Jahre</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>Jugend</Ausrichtung>
+    <Gruppenbeschreibung>Wir beschäftigen uns mit den grundlegenden Klettertechniken, probieren uns an den verschiedenen Boulderrouten aus und entwickeln ein besseres Körpergefühl. Der Spaß am Bouldern und an der Bewegung stehen im Vordergrund und auch Kletter- und Aufwärmspiele kommen nicht zu kurz. Einmal im Jahr fahren wir in an den echten Fels um draußen zu bouldern und machen zusätzlich Ausflüge in andere Berliner Boulderhallen.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>18</counter>
+    <Bezeichnung>Senior Climber 30+</Bezeichnung>
+    <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Arno Behr</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/kontakt/vorstand/22-behr-arnold</KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Freitag</Wochentag>
+    <WeekdaySort>6</WeekdaySort>
+    <Uhrzeit>19:00--</Uhrzeit>
+    <Saison>Oktober-April</Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>Plaisirkletterer ab 30</Zielgruppe>
+    <Voraussetzungen>Toprope- oder Vorstiegskenntnisse</Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>allgemein</Ausrichtung>
+    <Gruppenbeschreibung></Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>19</counter>
+    <Bezeichnung>Familienbeisser</Bezeichnung>
+    <Terminbeschreibung>Eltern-Kind-Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Uwe Borrmann</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/jugend/team/87-borrmann-uwe</KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Samstag</Wochentag>
+    <WeekdaySort>7</WeekdaySort>
+    <Uhrzeit>10:00-13:30</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen>nicht in den Schulferien</Ausnahmen>
+    <Zielgruppe>Kinder 0-10 mit Eltern</Zielgruppe>
+    <Voraussetzungen>Eltern sichern selbständig ihre Kinder</Voraussetzungen>
+    <Formalien>Nur wenn Jugendleiter anwesend</Formalien>
+    <Ausrichtung>Jugend</Ausrichtung>
+    <Gruppenbeschreibung>Hier können Kinder zwischen 0 und 10 Jahren gemeinsam mit ihren Eltern teilnehmen, die die Faszination des Klettersports erleben möchten.  Aber natürlich auch junge Erwachsene (älter als 25 Jahre), die noch keine Kinder aber auch keine Angst vor Kindern haben und die Vereinbarkeit von Klettern und Kindern erleben möchten. Die Eltern übernehmen weiterhin die Aufsichtspflicht für ihre Kinder und sichern selbstständig, gemäß den Inhalten des DAV-Kletterschein Toprope, ihre Kinder. Kinder sollten in einen Klettergurt passen, wenn es über das Bouldern hinaus gehen soll.</Gruppenbeschreibung>
+</kurs>
+<kurs>
+    <counter>20</counter>
+    <Bezeichnung>Wombats</Bezeichnung>
+    <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
+    <Kategorie>Klettern, in Berlin</Kategorie>
+    <Leiter>Melanie Schäfer</Leiter>
+    <KontaktDruck></KontaktDruck>
+    <KontaktWeb>https://www.alpinclub-berlin.de/index.php/jugend/team/121-melanie-schaefer</KontaktWeb>
+    <Ort>Kletterhalle Hüttenweg</Ort>
+    <Wochentag>Samstag</Wochentag>
+    <WeekdaySort>7</WeekdaySort>
+    <Uhrzeit>14:00-17:00</Uhrzeit>
+    <Saison></Saison>
+    <Ausnahmen></Ausnahmen>
+    <Zielgruppe>12-27 Jahre</Zielgruppe>
+    <Voraussetzungen></Voraussetzungen>
+    <Formalien></Formalien>
+    <Ausrichtung>Jugend</Ausrichtung>
+    <Gruppenbeschreibung>Unsere momentane Hauptaktivität ist das Klettern in der Halle. Wir feilen an unseren Fähigkeiten, machen Sicherungsstraining, erlernen verschiedene Klettertechniken und haben Spaß bei verschiedenen Boulderspielen. Wann immer es uns möglich ist, sind wir aber auch unterwegs: ob zum Klettern an den Klettertürmen in und um Berlin, zur Sommerfahrt in den Alpen oder im Herbst auf der Jonsdorfer Hütte, oder auch mal auf einer Wasserwanderung auf der Mecklenburgischen Seenplatte, zieht es uns regelmäßig nach draußen.</Gruppenbeschreibung>
+</kurs>
+</kursexport>
