@@ -1,46 +1,42 @@
 from typing import List
 
-import reportlab
 from defusedxml.ElementTree import parse
 from reportlab.lib.pagesizes import mm
 from reportlab.platypus import SimpleDocTemplate
+from reportlab.platypus.flowables import KeepTogether
 
-from Core.Parser import PDFBuilder
+from Core.Parser import Parser
 from Core.PostProcessor import PostProcessor
 from Core.Sorter import Sorter
 
 
 class Initializer:
+    """Coordinate the construction of the pdf result
 
-    __data: List[reportlab.platypus.Table]
+    :param str input_path: path to input xml-file
+    :param str output_path: path to pdf file containing result
+    :param str properties_path: path to text file containing properties
+    """
 
-    def __init__(self):
+    __data: List[KeepTogether]
+
+    def __init__(self, input_path, output_path, properties_path):
         self.__data = []
-
-    def build(self, input_t, output_t, properties_t):
-        """
-        Coordinate the construction of the pdf result.
-
-        Parameters
-        ----------
-        :param str input_t: path to input xml-file
-        :param str output_t: path to pdf file containing result
-        :param str properties_t: path to text file containing properties
-        """
-
-        parser = PDFBuilder(self.__data, properties_t)
-        pdf = SimpleDocTemplate(output_t, pagesize=(179 * mm, 135 * mm))
-        doc = parse(input_t)
-        pdf.topMargin = 0.0
-        pdf.bottomMargin = 0.0
-        pdf.leftMargin = 0.0
-        pdf.rightMargin = 0.0
-        courses = doc.findall('kurs')
-        sorter = Sorter(doc, courses)
-        sorted_courses = sorter.sort_parsed_xml('Ort')
-
+        parser = Parser(properties_path, self.__data)
+        pdf = SimpleDocTemplate(
+            output_path,
+            pagesize=(178 * mm, 134 * mm),
+            topMargin=0.0,
+            bottomMargin=0.0,
+            leftMargin=0.0,
+            rightMargin=0.0,
+        )
+        doc = parse(input_path)
+        sorter = Sorter(doc.findall("kurs"))
+        sorted_courses = sorter.sort_parsed_xml("Ort")
         parser.collect_xml_data(sorted_courses)
 
         pdf.build(self.__data)
 
-        PostProcessor.split_pdf(output_t)
+        pdf_postprocessor = PostProcessor(output_path)
+        pdf_postprocessor.finalize_print_preparation()

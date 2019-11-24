@@ -5,10 +5,8 @@ from Core.Initializer import Initializer
 
 def main():
     validate()
-    initial = Initializer()
-    initial.build(sys.argv[1], sys.argv[2], sys.argv[3])
-    print("\n"
-          "-------------------------------DONE-------------------------------")
+    Initializer(sys.argv[1], sys.argv[2], sys.argv[3])
+    print("\n-------------------------------DONE-------------------------------")
 
 
 def validate():

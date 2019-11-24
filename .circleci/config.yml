@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/python:3.6.1
+    - image: circleci/python:3.7
 
     working_directory: ~/repo
 
@@ -15,17 +15,18 @@ jobs:
     # Checkout code.
     - checkout
 
-    # Create test-result folder.
+    # Create test-result folder and the default output folder.
     - run:
         name: Create test result folder
         command: |
           mkdir test-results
           mkdir test-results/pytest
+          mkdir -p output
 
     # Download and cache dependencies.
     - restore_cache:
         keys:
-        - v1-dependencies-{{ checksum "requirements.txt" }}
+        - v1-dependencies-{{ checksum "requirements/dev-requirements.txt" }}
         # Fallback to using the latest cache if no exact match is found.
         - v1-dependencies-
 
@@ -34,19 +35,20 @@ jobs:
         command: |
           python3 -m venv venv
           . venv/bin/activate
-          pip install -r requirements.txt
+          pip install -r requirements/requirements.txt
+          pip install -r requirements/dev-requirements.txt
 
     - save_cache:
         paths:
         - ./venv
-        key: v1-dependencies-{{ checksum "requirements.txt" }}
+        key: v1-dependencies-{{ checksum "requirements/dev-requirements.txt" }}
 
     - run:
-        name: Install Codacy reporter
+        name: Install Codacy and Codecov reporter
         command: |
           python3 -m venv venv
-          . venv/bin/activate
-          pip install codacy-coverage
+          source venv/bin/activate
+          pip install codacy-coverage codecov
 
     # Set up Code Climate by downloading test reporter as a static binary
     - run:
@@ -56,23 +58,24 @@ jobs:
           chmod +x ./cc-test-reporter
 
     # Run coverage! We use pytest's test-runner (https://pytest.org)
-    # 1. Notify Code Climate of a pending test report using `before-build`
-    # 2. Upload test report to Code Climate using `after-build`
-    # 3. Upload test report to Codacy using `python-codacy-coverage`
-    # 4. Produce normal report to show in CircleCI 'test-reports'
+    # 1. Upload test report to Codacy using `python-codacy-coverage`
+    # 2. Upload test report to Codecov using `codecov`
+    # 3. Produce normal report to show in CircleCI 'test-reports'
     - run:
-        name: Produce coverage report
+        name: Test and create coverage report
         command: |
-          . venv/bin/activate
+          source venv/bin/activate
           ./cc-test-reporter before-build
-          python -m pytest -v --cov=. test/ \
+          pytest -v --cov=. \
            --junitxml=test_results/pytest/pytest.xml
-          coverage xml --omit=venv/*
+          coverage xml
           ./cc-test-reporter after-build --coverage-input-type coverage.py \
               --exit-code $?
           python-codacy-coverage -r coverage.xml
+          codecov
           mv coverage.xml ./test_results/pytest/
-          coverage report -m --omit=venv/* > test_results/pytest/coverage.log
+          coverage report -m > test_results/pytest/coverage.log
+          mv ./output/ ./test_results/
 
     # Store test results.
     - store_artifacts:
