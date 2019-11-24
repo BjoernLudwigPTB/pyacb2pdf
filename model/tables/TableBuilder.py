@@ -29,7 +29,7 @@ class TableBuilder:
             [
                 "Regelmäßige Veranstaltungen in Berlin",
                 ["in Berlin"],
-                ["Gymnastik", "Klettern", "Wandern", "Bouldern"],
+                ["Gymnastik", "Klettern", "Wandern", "Bouldern", "Geselligkeit"],
             ]
         ]
 
