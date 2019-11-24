@@ -13,7 +13,7 @@ def test_initializer_init(teststrings):
 
 def test_initializer():
     input_folder = "test/test_data/"
-    xml_filename = "regulars.xml"
+    xml_filename = "test_regulars.xml"
     input_path = input_folder + xml_filename
     properties_filename = "testdata_prop.properties"
     properties_path = input_folder + properties_filename
