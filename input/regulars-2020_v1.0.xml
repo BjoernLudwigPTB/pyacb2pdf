@@ -87,7 +87,7 @@
     <Bezeichnung>Klettern am Spandauer Turm</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Vertretung Jakob Fankhänel</Leiter>
+    <Leiter>Gerald Petrasch, Gudrun Petrasch, Andreas Niemoth, Vertretung Jakob Fankhänel, Anne Reimer</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/95-petrasch-gerald</KontaktWeb>
     <Ort>Kletterturm im Spektefeld</Ort>
@@ -230,13 +230,13 @@
     <Leiter>Andreas Niemoth</Leiter>
     <KontaktDruck>aniemoth@web.de</KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/46-niemoth-andreas</KontaktWeb>
-    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str.</Ort>
+    <Ort>Sporthalle der B.-Traven-GS, Remscheider Str.</Ort>
     <Wochentag>Donnerstag</Wochentag>
     <WeekdaySort>5</WeekdaySort>
     <Uhrzeit>17:15-19:00</Uhrzeit>
     <Saison></Saison>
     <Ausnahmen>nicht in den Schulferien</Ausnahmen>
-    <Zielgruppe>Anfänger, Jugendliche, Familien</Zielgruppe>
+    <Zielgruppe>Anfänger, Kinder, Jugendliche, Familien</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
     <Formalien></Formalien>
     <Ausrichtung>allgemein</Ausrichtung>
@@ -247,10 +247,10 @@
     <Bezeichnung>Klettersportzentrum Spandau</Bezeichnung>
     <Terminbeschreibung>Offenes Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Andreas Niemoth, Gerald Petrasch, Gudrun Petrasch</Leiter>
+    <Leiter>Andreas Niemoth, Gerald Petrasch, Gudrun Petrasch, Anne Reimer</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/122-sportklettern/46-niemoth-andreas</KontaktWeb>
-    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
+    <Ort>Sporthalle der B.-Traven-GS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
     <Wochentag>Donnerstag</Wochentag>
     <WeekdaySort>5</WeekdaySort>
     <Uhrzeit>17:15-21:00</Uhrzeit>
@@ -267,16 +267,16 @@
     <Bezeichnung>Kinder- und Jugendgruppe Sportklettern</Bezeichnung>
     <Terminbeschreibung>Jugend-Klettern</Terminbeschreibung>
     <Kategorie>Klettern, in Berlin</Kategorie>
-    <Leiter>Gudrun Petrasch</Leiter>
+    <Leiter>Gudrun Petrasch, Johanna Klimke</Leiter>
     <KontaktDruck></KontaktDruck>
     <KontaktWeb>https://www.alpinclub-berlin.de/index.php/fachuebungsleiter/128-kletterwandbetreuer/90-gudrun-petrasch2</KontaktWeb>
-    <Ort>Sporthalle der B.-Traven-OS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
+    <Ort>Sporthalle der B.-Traven-GS, Remscheider Str. / bei gutem Wetter am Spandauer Kletterturm</Ort>
     <Wochentag>Donnerstag</Wochentag>
     <WeekdaySort>5</WeekdaySort>
     <Uhrzeit>17:15-19:00</Uhrzeit>
     <Saison></Saison>
     <Ausnahmen>nicht in den Schulferien</Ausnahmen>
-    <Zielgruppe>Kinder und Jugendliche des ACB von 10 bis 27 Jahren</Zielgruppe>
+    <Zielgruppe>Kinder und Jugendliche des ACB von 12 bis 27 Jahren</Zielgruppe>
     <Voraussetzungen>Kletterausrüstung, falls vorhanden</Voraussetzungen>
     <Formalien></Formalien>
     <Ausrichtung>Jugend</Ausrichtung>
