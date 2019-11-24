@@ -49,14 +49,16 @@ class TableBuilder:
         familie = ["Veranstaltungen für Familien", ["Familie"], ["Familie"]]
         jugend = ["Jugendgruppen und -events", ["Jugend"], ["Jugend"]]
 
+        # That is the place to change the order of the appearance of the subtables in
+        # the final result.
         return [
-            familie,
+            klettern,
             ausbildung,
-            wandern,
             mountainbiken,
             bergsteigen,
+            familie,
             jugend,
-            klettern,
+            wandern,
         ]
 
     def create_subtables(self):

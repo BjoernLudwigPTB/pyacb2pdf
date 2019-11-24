@@ -54,19 +54,19 @@ class TableStyle:
             # ... the type of the event.
             7.2 * mm,
             # ... the date and time of the event.
-            11.5 * mm,
+            11.6 * mm,
             # ... the region of the event.
-            18.7 * mm,
+            19 * mm,
             # ... the responsible person for the event.
-            14.5 * mm,
+            14.8 * mm,
             # ... the details regarding the content of the event. Note that this
             # column width is calculated in the next step from the available total
             # space and the sum of all other column widths.
             0 * mm,
             # ... the target audience the event.
-            18 * mm,
+            18.1 * mm,
             # ... the personal, material and financial prerequisites for the event.
-            47 * mm,
+            49.1 * mm,
         ]
         self._column_widths[4] = (
             self.table_width
@@ -81,7 +81,7 @@ class TableStyle:
         custom_styles = getSampleStyleSheet()
         # Overwrite the sample styles according to our needs.
         # TODO this should be provided in the properties file
-        custom_styles.get("Normal").fontSize = 6.5
+        custom_styles.get("Normal").fontSize = 6.6
         custom_styles.get("Normal").leading = custom_styles["Normal"].fontSize * 1.2
         custom_styles.get("Normal").fontName = "NewsGothBT"
         custom_styles.get("Italic").fontSize = custom_styles["Normal"].fontSize
