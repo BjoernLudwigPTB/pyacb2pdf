@@ -1,5 +1,6 @@
-from PdfVisualisation.TableStyle import TableStyle
 from pytest import fixture, approx
+
+from pyxml2pdf.PdfVisualisation.TableStyle import TableStyle
 
 
 @fixture
