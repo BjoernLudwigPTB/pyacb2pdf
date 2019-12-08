@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="2020_offline" type="PythonConfigurationType" factoryName="Python">
-    <module name="XMLToPDFConverter" />
+    <module name="pyxml2pdf" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -13,7 +13,7 @@
     <option name="ADD_SOURCE_ROOTS" value="false" />
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="SCRIPT_NAME" value="Main.py" />
-    <option name="PARAMETERS" value="input/kursdaten-draft2020_v1.31.xml output/kursdaten-draft2020_v1.31.pdf input/kursdaten_prop.properties" />
+    <option name="PARAMETERS" value="input/kursdaten-draft2020_v1.4.xml output/kursdaten-draft2020_v1.4.pdf input/kursdaten_prop.properties" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
     <option name="MODULE_MODE" value="false" />

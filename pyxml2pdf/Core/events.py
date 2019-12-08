@@ -1,5 +1,5 @@
 """Module to provide a wrapper :py:class:`Core.events.Event` for xml extracted data"""
-from model.tables.TableBuilder import TableBuilder
+from pyxml2pdf.model.tables.TableBuilder import TableBuilder
 
 __all__ = ["Event"]
 
@@ -11,7 +11,7 @@ from xml.etree.ElementTree import Element
 from reportlab.platypus import Paragraph
 from reportlab.platypus import Table
 
-from PdfVisualisation.TableStyle import TableStyle
+from pyxml2pdf.PdfVisualisation.TableStyle import TableStyle
 
 
 class Event(Element):
@@ -173,12 +173,21 @@ class Event(Element):
 
     def _init_date(self):
         """Create a properly formatted string containing the date of the event"""
-        # Extract data from xml children tags' texts
+        # Extract data from xml children tags' texts. Since the date can consist of
+        # three date ranges, we concatenate them separated with a line containing
+        # only an "und".
         extracted_date = self._concatenate_tags_content(
             ["TerminDatumVon1", "TerminDatumBis1"]
         )
-        # Replace any extracted_date of a form like 31.12.2099 with a string to tell
-        # anytime.
+        additional_dates = [
+            self._concatenate_tags_content(["TerminDatumVon2", "TerminDatumBis2"]),
+            self._concatenate_tags_content(["TerminDatumVon3", "TerminDatumBis3"]),
+        ]
+        for additional_date in additional_dates:
+            if additional_date:
+                extracted_date += "<br/>und<br/>" + additional_date
+
+        # Replace any extracted_date of a form similar to 31.12.2099 with "on request".
         if "2099" in extracted_date:
             new_date = "auf Anfrage"
         elif extracted_date:
@@ -242,7 +251,9 @@ class Event(Element):
             material_string = "b) keine <br/>"
 
         if financial:
-            financial_string = "c) " + financial + " € (" + offers + ")"
+            financial_string = "c) " + financial + " €"
+            if offers:
+                financial_string += " (" + offers + ")"
         else:
             financial_string = "c) keine"
         return personal_string + material_string + financial_string
