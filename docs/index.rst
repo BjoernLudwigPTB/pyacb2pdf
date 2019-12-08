@@ -9,14 +9,13 @@ work on this project every end of the year, we will provide an extensive bit of
 documentation by the end of November 2019.
 
 For the *pyxml2pdf* homepage go to `GitHub <https://github.com/BjoernLudwigPTB/
-XMLToPDFConverter>`_.
+pyxml2pdf>`_.
 
 *pyxml2pdf* is written in Python 3.
 
-Contents:
-
 .. toctree::
     :maxdepth: 2
+    :caption: Contents:
 
     pyxml2pdf.rst
 
