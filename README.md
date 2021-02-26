@@ -150,8 +150,8 @@ This project was prepared by [Wojciech Kur](https://github.com/kuras120) in his
 repository [XMLtoPDFConverter](https://github.com/kuras120/XMLToPDFConverter). We are
 grateful for his effort in designing the basic structure and built upon his main ideas.
 At some point our project diverged as much from his original work, as for us to justify
-to decouple our project from his. The fork is still kept (and maintained) as a special 
-case in [pyacb2pdf](https://github.com/BjoernLudwigPTB/pyacb2pdf).
+to decouple our project from his in [pyxml2pdf](https://github.com/BjoernLudwigPTB/pyxml2pdf).
+This fork here is still kept (and maintained) as a special case of this generalization.
 
 ## ⚠Disclaimer
 
@@ -161,6 +161,7 @@ use by other parties, and makes no guarantees, expressed or implied, about its q
 reliability, safety, suitability or any other characteristic. In no event will the 
 author be liable for any direct, indirect or consequential damage arising in connection
 with the use of this software.
+
 ## ©License
 
 pyxml2pdf is distributed under the [GPLv3 license](https://github.com/BjoernLudwigPTB/pyxml2pdf/blob/master/LICENSE).
