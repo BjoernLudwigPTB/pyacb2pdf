@@ -30,10 +30,9 @@
 <h1 align="center">Convert your XML into a Pdf table</h1>
 
 <p align="justify">
-Since we forked the <a href="https://github.com/kuras120/XMLToPDFConverter">upstream</a>
-this project has generalized quite a bit towards the <b>generation of a multipage PDF
-file</b>  containing a table with subtables each containing a subset of an XML files
-content arranged in rows and columns. We work on this project mainly every quarter.</p>
+Generate a <b>multi-page PDF file</b> from an <b>XML file</b> with the contents
+displayed in <b>several tables</b> based on <b>filter criteria</b>.
+</p>
 
 ## Table of content
 
@@ -43,6 +42,7 @@ content arranged in rows and columns. We work on this project mainly every quart
 - [💻 Installation](#installation)
 - [💨 Coming soon](#coming-soon)
 - [👋 Get in touch](#get-in-touch)
+- [💎 Acknowledgement](#acknowledgement)
 - [⚠ Disclaimer](#disclaimer)
 - [️© License](#license)
 
@@ -70,13 +70,14 @@ The intended way of using this software is calling
 - optional arguments:
   - `-u <URL>, --url <URL>`
     The URL from which the file shall be downloaded. This is only used, if the specified
-    local file is not present. Defaults to ['https://www.alpinclub-berlin.de/kv/kursdaten.xml'](https://www.alpinclub-berlin.de/kv/kursdaten.xml)
+    local file is not present. Defaults to ['https://github.com/BjoernLudwigPTB/pyxml2pdf/blob/master/input/template.xml'](https://github.com/BjoernLudwigPTB/pyxml2pdf/blob/master/input/template.xml)
   - `-p <path to Pdf file>, --pdf <path to Pdf file>`
-    The file path to store the created PDF to. Defaults to `'output/kursdaten.pdf'`
+    The file path to store the created PDF to. Defaults to `'output/template.pdf'`
 
 ## 👓Example
 
-Imagine you have an XML file with similar groups of tags and subtags.
+As an example we look at our _input/template.xml_ and the processed result. Imagine you
+have an XML file with similar groups of tags and subtags.
 
 ```xml
 <main_tag>
@@ -115,7 +116,7 @@ combinations of comma-separated texts. Those groups of `row_tag`s are extracted 
 several subtables each with a separating heading line and the corresponding column
 headings.
 
-![page one of the processed template.xml](output/template_seite_01_rotated.png)
+![page one of the processed template.xml](output/template_page_01_rotated.png)
 
 ## 📖Documentation
 
@@ -142,6 +143,15 @@ The next big step will be the deployment on [Heroku](https://www.heroku.com).
  
 In case you have any questions on this project do not hesitate to get in touch with
 [us](https://github.com/BjoernLudwigPTB/pyxml2pdf/graphs/contributors).
+
+## 💎Acknowledgement
+
+This project was prepared by [Wojciech Kur](https://github.com/kuras120) in his
+repository [XMLtoPDFConverter](https://github.com/kuras120/XMLToPDFConverter). We are
+grateful for his effort in designing the basic structure and built upon his main ideas.
+At some point our project diverged as much from his original work, as for us to justify
+to decouple our project from his. The fork is still kept (and maintained) as a special 
+case in [pyacb2pdf](https://github.com/BjoernLudwigPTB/pyacb2pdf).
 
 ## ⚠Disclaimer
 
