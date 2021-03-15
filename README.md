@@ -31,7 +31,8 @@
 
 <p align="justify">
 Generate a <b>multi-page PDF file</b> from an <b>XML file</b> with the contents
-displayed in <b>several tables</b> based on <b>filter criteria</b>.
+displayed in <b>several tables</b> based on <b>filter criteria</b>. There is a
+more generic version of this repository at <a href="https://github.com/BjoernLudwigPTB/pyxml2pdf">github.com/BjoernLudwigPTB/pyxml2pdf</a>
 </p>
 
 ## Table of content
@@ -151,7 +152,8 @@ repository [XMLtoPDFConverter](https://github.com/kuras120/XMLToPDFConverter). W
 grateful for his effort in designing the basic structure and built upon his main ideas.
 At some point our project diverged as much from his original work, as for us to justify
 to decouple our project from his in [pyxml2pdf](https://github.com/BjoernLudwigPTB/pyxml2pdf).
-This fork here is still kept (and maintained) as a special case of this generalization.
+This fork _pyacb2pdf_ here is still kept (and maintained) as a special case of this
+generalization.
 
 ## ⚠Disclaimer
 
