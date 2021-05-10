@@ -7,7 +7,7 @@ from typing import List
 
 from reportlab.platypus.flowables import KeepTogether  # type: ignore
 
-from pyxml2pdf.core.rows import XMLRow
+from pyxml2pdf.core.events import Event
 from pyxml2pdf.tables.builder import TableBuilder
 
 
@@ -30,7 +30,7 @@ class Parser:
         The collected XML data then is passed to the table_manager and all arranged
         data is return.
 
-        :param List[XMLRow] events: a list of the items from which the texts shall be
+        :param List[Event] events: a list of the items from which the texts shall be
             extracted into a nicely formatted table
         :returns: list of all table rows containing the relevant
             event data
@@ -38,7 +38,7 @@ class Parser:
         """
         if events:
             for event in events:
-                self._table_manager.distribute_row(XMLRow(event))
+                self._table_manager.distribute_row(Event(event))
             subtable_elements = self._table_manager.subtables
             self._elements.extend(
                 [
