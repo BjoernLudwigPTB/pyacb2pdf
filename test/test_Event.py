@@ -83,7 +83,7 @@ def test_event_reduced_rows_column_widths(test_event, subtable_title, test_table
     test_event._init_reduced_row(subtable_title)
     assert test_event._reduced_row._colWidths[:3] == test_table_style.column_widths[:3]
     assert test_event._reduced_row._colWidths[-1] == sum(
-        test_table_style.column_widths[3:]
+        test_table_style.column_widths[4:]
     )
 
 

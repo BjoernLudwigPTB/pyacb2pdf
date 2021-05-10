@@ -9,7 +9,7 @@ import defusedxml  # type: ignore
 from reportlab.lib.styles import StyleSheet1  # type: ignore
 from reportlab.platypus import Paragraph, Table  # type: ignore
 
-from input.properties_template import (  # type: ignore
+from input.properties import (  # type: ignore
     columns,
     identifier_xmltag,
     subtables_xmltag,

@@ -2,6 +2,9 @@
 
 from typing import List, NamedTuple, Tuple
 
+#: the page size of the generated Pdf.
+pagesize = (178, 134)
+
 #: The XML tag, which will be represented by one row in the table.
 rows_xmltag = "kurs"  # type: str
 
@@ -14,6 +17,9 @@ identifier_xmltag = [
     "TerminDatumVon3",
     "TerminDatumBis3",
 ]  # type: List[str]
+
+#: The XML tag, which will be represented by one row in the table.
+sort_xmltag = "TerminDatumVon1"
 
 #: The table title is displayed as the content of the very first cell in full table
 #: width.
@@ -28,7 +34,7 @@ Column = NamedTuple("Column", [("label", str), ("tag", List[str]), ("width", flo
 #: one and the same row, must each belong to one parent tag `rows_xmltag'. The column
 #: widths are specified with 'width' in mm.
 columns = [
-    Column(label="Art", tag=["Kursart"], width=7.2),
+    Column(label="Art", tag=["Kursart"], width=14.2),
     Column(
         label="Datum",
         tag=[
@@ -39,14 +45,14 @@ columns = [
             "TerminDatumVon3",
             "TerminDatumBis3",
         ],
-        width=11.5,
+        width=11.8,
     ),
     Column(label="Ort", tag=["Ort1"], width=18.7),
-    Column(label="Leitung", tag=["Kursleiter"], width=14.5),
+    Column(label="Leitung", tag=["Kursleiter"], width=15.1),
     Column(
         label="Beschreibung",
         tag=["Bezeichnung", "Bezeichnung2", "Beschreibung"],
-        width=60.9,
+        width=53.0,
     ),
     Column(label="Zielgruppe", tag=["Zielgruppe"], width=18),
     Column(
@@ -81,20 +87,28 @@ subtable_settings = (
         include=[["in Berlin"], ["Ausbildung", "Wandern", "Klettern"]],
     ),
     SubtableSetting(
-        label="Mountainbiken", include=[["Mountainbiken"], ["Mountainbiken"]]
-    ),
-    SubtableSetting(
-        label="Ski, Bergsteigen, Hochtouren und Klettern im Hochgebirge",
+        label="Bergsteigen, Hochtouren und Klettern im Hochgebirge",
         include=[
             ["Hochgebirge"],
-            ["Bergsteigen", "Hochtouren", "Höhle", "Klettern", "Klettersteig", "Ski"],
+            [
+                "Bergsteigen",
+                "Hochtouren",
+                "Höhle",
+                "Klettern",
+                "Klettersteig",
+                "Ski",
+                "Alpinklettern",
+            ],
         ],
     ),
     SubtableSetting(
-        label="Veranstaltungen für Familien", include=[["Familie"], ["Familie"]]
+        label="Mountainbiken", include=[["Mountainbiken"], ["Mountainbiken"]]
     ),
     SubtableSetting(
         label="Jugendgruppen und -events", include=[["Jugend"], ["Jugend"]]
+    ),
+    SubtableSetting(
+        label="Veranstaltungen für Familien", include=[["Familie"], ["Familie"]]
     ),
 )  # type: Tuple[SubtableSetting, ...]
 

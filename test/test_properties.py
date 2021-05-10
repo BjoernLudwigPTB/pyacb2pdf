@@ -1,6 +1,6 @@
 import pathlib
 
-from input.properties_template import (  # type: ignore
+from input.properties import (  # type: ignore
     Column,
     columns,
     font,
